@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog PSA Advocacia Consultiva — Compliance, Imobiliário, Cartório, Empresarial e Tributário</title>
+<title>Blog PSA Advocacia Empresarial — Compliance, Imobiliário, Cartório, Empresarial e Tributário</title>
 <meta name="description" content="Conteúdo jurídico sem enrolação: compliance, direito imobiliário, cartório, empresarial e tributário.">
 <link rel="icon" type="image/png" href="psa-favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<meta property="og:title" content="Blog PSA Advocacia Consultiva — Compliance, Imobiliário, Cartório, Empresarial e Tributário">
+<meta property="og:title" content="Blog PSA Advocacia Empresarial — Compliance, Imobiliário, Cartório, Empresarial e Tributário">
 <meta property="og:description" content="Conteúdo jurídico sem enrolação: compliance, direito imobiliário, cartório, empresarial e tributário.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://blog.psalaw.adv.br/index.html">
+<link rel="alternate" type="application/rss+xml" title="Blog PSA Advocacia Empresarial" href="feed.xml">
 <style>
 
   :root{
@@ -102,40 +103,6 @@
   }
   .contact-row a:hover{ color:var(--gold-dark); }
 
-  .breadcrumb{
-    font-family:'Inter',sans-serif;
-    font-size:12px;
-    color:var(--gold-dark);
-    margin-bottom:20px;
-    display:block;
-    text-decoration:none;
-  }
-  .meta-row{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:wrap;
-    margin-bottom:14px;
-  }
-  .kicker{
-    font-family:'Inter',sans-serif;
-    font-size:11px;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    color:var(--muted);
-  }
-  .dot{ color:var(--border); }
-  .reading-time{
-    font-family:'Inter',sans-serif;
-    font-size:11px;
-    color:var(--muted);
-  }
-  .tags{
-    display:flex;
-    gap:8px;
-    margin-bottom:18px;
-    flex-wrap:wrap;
-  }
   .tag{
     display:inline-block;
     font-family:'Inter',sans-serif;
@@ -149,188 +116,6 @@
     padding:3px 10px;
     margin-right:6px;
     margin-bottom:6px;
-  }
-  article h1{
-    font-family:'Playfair Display',serif;
-    font-size:32px;
-    line-height:1.25;
-    color:var(--ink);
-    margin-bottom:22px;
-  }
-  article h1 em{ color:var(--gold-dark); font-style:italic; }
-  article h2{
-    font-family:'Playfair Display',serif;
-    font-size:21px;
-    line-height:1.3;
-    color:var(--ink);
-    margin:32px 0 14px 0;
-  }
-  article img.cover{
-    width:100%;
-    border-radius:6px;
-    margin-bottom:8px;
-    display:block;
-    box-shadow:0 4px 16px rgba(36,31,24,0.10);
-  }
-  .caption{
-    font-family:'Inter',sans-serif;
-    font-size:12px;
-    color:var(--muted);
-    margin-bottom:26px;
-  }
-  article p{
-    font-family:'Inter',sans-serif;
-    font-size:16px;
-    line-height:1.75;
-    color:var(--text);
-    margin-bottom:18px;
-  }
-  article strong{ color:var(--gold-dark); }
-  article ul{
-    margin:0 0 22px 0;
-    padding:0;
-    list-style:none;
-  }
-  article ul li{
-    font-family:'Inter',sans-serif;
-    font-size:15px;
-    line-height:1.6;
-    color:var(--text);
-    padding:12px 0;
-    border-top:1px solid var(--border);
-  }
-  article ul li:last-child{ border-bottom:1px solid var(--border); }
-  article ul li strong{ color:var(--gold-dark); }
-  .callout{
-    margin:24px 0;
-    padding:18px 20px;
-    background:rgba(172,142,83,0.06);
-    border-left:3px solid var(--gold);
-    border-radius:0 8px 8px 0;
-    font-family:'Inter',sans-serif;
-    font-size:14.5px;
-    line-height:1.6;
-    color:var(--text);
-  }
-  .callout strong{ color:var(--ink); }
-  .source-box{
-    margin-top:34px;
-    padding:16px 18px;
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:8px;
-    font-family:'Inter',sans-serif;
-    font-size:13px;
-    color:var(--muted);
-    line-height:1.6;
-  }
-
-  .share-row{
-    display:flex;
-    gap:10px;
-    margin:30px 0;
-    flex-wrap:wrap;
-  }
-  .share-btn{
-    display:inline-flex;
-    align-items:center;
-    gap:7px;
-    font-family:'Inter',sans-serif;
-    font-size:12.5px;
-    font-weight:600;
-    color:var(--gold-dark);
-    background:rgba(172,142,83,0.08);
-    border:1px solid rgba(172,142,83,0.3);
-    border-radius:999px;
-    padding:8px 16px;
-    text-decoration:none;
-  }
-  .share-btn.whatsapp{ color:#1DA851; background:rgba(29,168,81,0.08); border-color:rgba(29,168,81,0.25); }
-
-  .inline-signup{
-    margin:44px 0 10px;
-    padding:28px 24px;
-    background:linear-gradient(135deg, rgba(172,142,83,0.08), rgba(172,142,83,0.02));
-    border:1px solid rgba(172,142,83,0.3);
-    border-radius:14px;
-  }
-  .inline-signup h3{
-    font-family:'Playfair Display',serif;
-    font-size:21px;
-    color:var(--ink);
-    margin-bottom:8px;
-  }
-  .inline-signup p{
-    font-family:'Inter',sans-serif;
-    font-size:13.5px;
-    color:var(--text);
-    margin-bottom:16px;
-  }
-  .inline-signup form{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-  }
-  .inline-signup input{
-    width:100%;
-    padding:12px 14px;
-    border-radius:8px;
-    border:1px solid var(--border);
-    background:#FFFFFF;
-    color:var(--ink);
-    font-family:'Inter',sans-serif;
-    font-size:14px;
-    outline:none;
-  }
-  .inline-signup input:focus{ border-color:var(--gold); }
-  .inline-signup button{
-    padding:13px;
-    border:none;
-    border-radius:8px;
-    background:var(--gold-dark);
-    color:#FFFFFF;
-    font-family:'Inter',sans-serif;
-    font-weight:700;
-    font-size:13.5px;
-    letter-spacing:0.03em;
-    text-transform:uppercase;
-    cursor:pointer;
-  }
-  .inline-signup .fine{
-    font-family:'Inter',sans-serif;
-    font-size:10.5px;
-    color:var(--muted);
-    margin-top:10px;
-  }
-
-  .related{ margin-top:48px; }
-  .related h3{
-    font-family:'Playfair Display',serif;
-    font-size:19px;
-    color:var(--ink);
-    margin-bottom:16px;
-  }
-  .related-grid{ display:flex; flex-direction:column; gap:12px; }
-  .related-card{
-    display:block;
-    padding:14px 16px;
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:10px;
-    font-family:'Inter',sans-serif;
-  }
-  .related-card:hover{ border-color:var(--gold); }
-  .related-card .rc-tag{
-    font-size:10.5px;
-    color:var(--muted);
-    text-transform:uppercase;
-    letter-spacing:0.05em;
-    margin-bottom:4px;
-  }
-  .related-card .rc-title{
-    font-family:'Playfair Display',serif;
-    font-size:16px;
-    color:var(--ink);
   }
 
   .post-card{
@@ -405,19 +190,12 @@
     header.site nav a{ font-size:12px; margin-left:12px; }
     main{ padding:24px 18px 50px; }
     h1.page-title{ font-size:24px; }
-    article h1{ font-size:24px; margin-bottom:16px; }
-    article h2{ font-size:18px; margin:24px 0 12px 0; }
-    article p{ font-size:15px; line-height:1.65; }
     .post-card{ padding:18px 18px; }
     .post-card h2{ font-size:18px; }
-    .inline-signup{ padding:22px 18px; }
-    .inline-signup h3{ font-size:18px; }
   }
   @media (min-width: 641px) and (max-width: 1024px){
     main{ padding:32px 28px 56px; }
-    article h1{ font-size:28px; }
   }
-
 
   .wa-float{
     position:fixed;
@@ -445,7 +223,7 @@
 <body>
 <header class="site">
   <a href="index.html" class="brand">
-    <img src="psa-logo.png" alt="PSA Advocacia Consultiva">
+    <img src="psa-logo.png" alt="PSA Advocacia Empresarial">
     <span>PSA BLOG</span>
   </a>
   <nav>
@@ -455,87 +233,136 @@
 </header>
 
 <main class="wide">
-  <h1 class="page-title">Blog PSA Advocacia Consultiva</h1>
+  <h1 class="page-title">Blog PSA Advocacia Empresarial</h1>
   <p class="page-sub">Compliance, imobiliário, cartório, empresarial e tributário — sem juridiquês.</p>
   <div class="filter-row"><span class="filter-tag">Todos</span><span class="filter-tag">Compliance</span><span class="filter-tag">Imobiliário</span><span class="filter-tag">Cartório</span><span class="filter-tag">Empresarial</span><span class="filter-tag">Tributário</span></div>
+
+  <a href="ato-conjunto-rfb-cgibs-2-2026.html" class="post-card">
+    <div class="data">27 de agosto de 2026</div>
+    <h2>Ato Conjunto RFB/Sufis/CGIBS/DE nº 2/2026: atualização dos leiautes técnicos de NF-e, NFC-e e BP-e</h2>
+    <p>Análise do Ato Conjunto RFB/Sufis/CGIBS/Diretoria Executiva nº 2/2026, que atualiza os leiautes técnicos de NF-e, NFC-e, BP-e e documentos fiscais setoriais vinculados ao IBS e à CBS.</p>
+    <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
+  </a>
+
+  <a href="split-payment-simples-2027.html" class="post-card">
+    <div class="data">27 de agosto de 2026</div>
+    <h2>Split Payment e Simples Nacional: exclusão do regime tradicional e o prazo decisório de setembro de 2026</h2>
+    <p>Análise da Resolução CGSN nº 190/2026: fundamentos jurídicos da não incidência do split payment sobre o Simples Nacional tradicional em 2027, o regime híbrido e o prazo irrevogável de opção entre 1º e 30 de setembro de 2026.</p>
+    <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
+  </a>
+
+  <a href="panorama-tributario-17-a-21-agosto.html" class="post-card">
+    <div class="data">21 de agosto de 2026</div>
+    <h2>Panorama Tributário Semanal: STF, Receita Federal e Reforma Tributária (17 a 21 de agosto de 2026)</h2>
+    <p>Análise das principais decisões e atos normativos tributários da semana: vedação de progressividade de IPTU por metragem, editais de transação tributária, adiamento do cronograma de IBS/CBS e pauta do STF sobre o voto de qualidade do Carf.</p>
+    <div style="margin-top:12px;"><span class="tag">Tributário</span></div>
+  </a>
+
+  <a href="psa-giro-tributario-agosto.html" class="post-card">
+    <div class="data">21 de agosto de 2026</div>
+    <h2>Panorama Tributário Semanal: STF, Receita Federal e Reforma Tributária (17 a 21 de agosto de 2026)</h2>
+    <p>Análise das principais decisões e atos normativos tributários da semana: vedação de progressividade de IPTU por metragem, editais de transação tributária, adiamento do cronograma de IBS/CBS e pauta do STF sobre o voto de qualidade do Carf.</p>
+    <div style="margin-top:12px;"><span class="tag">Tributário</span></div>
+  </a>
+
+  <a href="reforma-tributaria-revisao-contratual.html" class="post-card">
+    <div class="data">10 de agosto de 2026</div>
+    <h2>Reforma Tributária e o dever de revisão contratual: o que as empresas precisam avaliar</h2>
+    <p>A implementação do IBS e da CBS impõe às empresas a revisão de cláusulas contratuais de repasse tributário, reajuste e recebíveis. Análise técnica dos pontos de atenção e recomendações práticas para o período de transição.</p>
+    <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
+  </a>
+
   <a href="carf-voto-qualidade-stf.html" class="post-card">
     <div class="data">3 de agosto de 2026</div>
     <h2>STF e o fim do voto de qualidade no CARF</h2>
     <p>Análise do julgamento das ADIs 6399, 6415 e 6403, com placar parcial de 5 a 1 contra a Fazenda Nacional, e seus efeitos sobre o contencioso administrativo tributário.</p>
     <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="ibs-cbs-nota-fiscal-agosto.html" class="post-card">
     <div class="data">15 de julho de 2026</div>
     <h2>Rejeição automática de documentos fiscais a partir de 3 de agosto de 2026</h2>
     <p>Análise dos fundamentos normativos e riscos operacionais da obrigatoriedade dos campos de IBS e CBS em documentos fiscais eletrônicos, com efeitos a partir de 3 de agosto de 2026.</p>
     <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="lucro-presumido-lc224.html" class="post-card">
     <div class="data">15 de julho de 2026</div>
     <h2>A majoração de 10% do lucro presumido: fundamentos para afastar a cobrança</h2>
     <p>Análise técnica dos fundamentos jurídicos para contestar a majoração de 10% na base de cálculo do IRPJ e CSLL imposta pela LC nº 224/2025.</p>
     <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="split-payment.html" class="post-card">
     <div class="data">14 de julho de 2026</div>
     <h2>Split Payment: obrigações e riscos jurídicos na nova arrecadação</h2>
     <p>Análise da documentação técnica do Split Payment (Ato Conjunto RFB/CGIBS nº 2/2026): obrigações acessórias, cessão de recebíveis e cronograma de implementação.</p>
     <div style="margin-top:12px;"><span class="tag">Tributário</span><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="due-diligence-terceiros.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Due diligence de terceiros: por que virou prioridade em 2026</h2>
     <p>O crime organizado entrou na agenda da governança empresarial. Entenda por que due diligence deixou de ser checklist.</p>
     <div style="margin-top:12px;"><span class="tag">Compliance</span></div>
   </a>
+
   <a href="compliance-pme.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Compliance não é mais coisa só de empresa grande</h2>
     <p>Pequenas e médias empresas já são cobradas por evidências mínimas de integridade. Veja como começar.</p>
     <div style="margin-top:12px;"><span class="tag">Compliance</span></div>
   </a>
+
   <a href="lei-inquilinato-2026.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Nova Lei do Inquilinato 2026: o que mudou</h2>
     <p>Contrato escrito obrigatório, fim da garantia dupla e novas regras tributárias para locação.</p>
     <div style="margin-top:12px;"><span class="tag">Imobiliário</span></div>
   </a>
+
   <a href="cadastro-imobiliario-brasileiro.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Cadastro Imobiliário Brasileiro: o "CPF dos imóveis"</h2>
     <p>Novo cadastro unifica dados de cartórios, prefeituras e Receita Federal, ampliando a fiscalização.</p>
     <div style="margin-top:12px;"><span class="tag">Imobiliário</span></div>
   </a>
+
   <a href="provimento-213-cnj-cartorios.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Provimento 213/2026: nova exigência de segurança para cartórios</h2>
     <p>CNJ amplia exigências de tecnologia e segurança da informação para mais de 12 mil serventias.</p>
     <div style="margin-top:12px;"><span class="tag">Cartório</span></div>
   </a>
+
   <a href="e-notariado-atos-digitais.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>e-Notariado: atos notariais 100% digitais</h2>
     <p>Plataforma já responde por quase metade dos atos praticados nos cartórios brasileiros.</p>
     <div style="margin-top:12px;"><span class="tag">Cartório</span></div>
   </a>
+
   <a href="reforma-codigo-civil-empresa.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Reforma do Código Civil: o que muda no Direito de Empresa</h2>
     <p>Novos princípios do Direito Empresarial e consolidação de entendimentos do STJ na lei.</p>
     <div style="margin-top:12px;"><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="tendencias-juridico-corporativo-2026.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>7 tendências para o jurídico corporativo em 2026</h2>
     <p>IA, ESG, reforma tributária e governança de dados moldam a nova função jurídica corporativa.</p>
     <div style="margin-top:12px;"><span class="tag">Empresarial</span></div>
   </a>
+
   <a href="reforma-tributaria-cronograma-empresas.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>Reforma tributária: cronograma completo para as empresas</h2>
     <p>Veja o cronograma de transição do IBS e CBS e o que fazer em cada fase.</p>
     <div style="margin-top:12px;"><span class="tag">Tributário</span></div>
   </a>
+
   <a href="ibs-cbs-explicado-empresarios.html" class="post-card">
     <div class="data">12 de julho de 2026</div>
     <h2>CBS e IBS explicados para quem empreende</h2>
@@ -543,15 +370,15 @@
     <div style="margin-top:12px;"><span class="tag">Tributário</span></div>
   </a>
 
-  <div class="inline-signup">
-      <h3>Quer receber isso direto no seu e-mail?</h3>
-      <p>Conteúdo jurídico e de gestão, direto no seu e-mail, sempre que publicarmos algo novo.</p>
-      <form method="POST" action="https://730b9dd4.sibforms.com/serve/MUIFALEIUDBQeWWEqViULl8_XwoAy3JM2bQEsNWvcHLhZT_qEr-89L85E6JUSzabp8ShJU8eMkRYGzD2R_9N8t1XSh9_5aMZBYN21ULLzq2pVNafeSyt3EpOU3BjRwU5ydiCxU__tKyv29bGrhGmqlr3yZowUw2R9yR196PnZrbHOh8F0xzMMUXCLBkjdWGlPgtlZaFCgBPotND46A==">
-        <input type="text" name="NOME" placeholder="Seu nome" required>
-        <input type="text" name="EMAIL" placeholder="seu@email.com" required>
-        <button type="submit">Quero receber</button>
+  <div class="inline-signup" style="margin:44px 0 10px; padding:28px 24px; background:linear-gradient(135deg, rgba(172,142,83,0.08), rgba(172,142,83,0.02)); border:1px solid rgba(172,142,83,0.3); border-radius:14px;">
+      <h3 style="font-family:'Playfair Display',serif; font-size:21px; color:var(--ink); margin-bottom:8px;">Quer receber isso direto no seu e-mail?</h3>
+      <p style="font-family:'Inter',sans-serif; font-size:13.5px; color:var(--text); margin-bottom:16px;">Conteúdo jurídico e de gestão, direto no seu e-mail, sempre que publicarmos algo novo.</p>
+      <form method="POST" action="https://730b9dd4.sibforms.com/serve/MUIFALEIUDBQeWWEqViULl8_XwoAy3JM2bQEsNWvcHLhZT_qEr-89L85E6JUSzabp8ShJU8eMkRYGzD2R_9N8t1XSh9_5aMZBYN21ULLzq2pVNafeSyt3EpOU3BjRwU5ydiCxU__tKyv29bGrhGmqlr3yZowUw2R9yR196PnZrbHOh8F0xzMMUXCLBkjdWGlPgtlZaFCgBPotND46A==" style="display:flex; flex-direction:column; gap:10px;">
+        <input type="text" name="NOME" placeholder="Seu nome" required style="width:100%; padding:12px 14px; border-radius:8px; border:1px solid var(--border); background:#FFFFFF; color:var(--ink); font-family:'Inter',sans-serif; font-size:14px; outline:none;">
+        <input type="text" name="EMAIL" placeholder="seu@email.com" required style="width:100%; padding:12px 14px; border-radius:8px; border:1px solid var(--border); background:#FFFFFF; color:var(--ink); font-family:'Inter',sans-serif; font-size:14px; outline:none;">
+        <button type="submit" style="padding:13px; border:none; border-radius:8px; background:var(--gold-dark); color:#FFFFFF; font-family:'Inter',sans-serif; font-weight:700; font-size:13.5px; letter-spacing:0.03em; text-transform:uppercase; cursor:pointer;">Quero receber</button>
       </form>
-      <div class="fine">Sem spam. Você pode cancelar a inscrição quando quiser.</div>
+      <div style="font-family:'Inter',sans-serif; font-size:10.5px; color:var(--muted); margin-top:10px;">Sem spam. Você pode cancelar a inscrição quando quiser.</div>
     </div>
 
 </main>
