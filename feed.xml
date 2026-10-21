@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
   <title>Blog PSA Advocacia Empresarial</title>
   <link>https://blog.psalaw.adv.br/</link>
   <description>Compliance, imobiliário, cartório, empresarial e tributário — sem juridiquês.</description>
   <language>pt-br</language>
-  <lastBuildDate>Mon, 19 Oct 2026 19:00:00 -0300</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 18:00:00 -0300</lastBuildDate>
+  <item>
+    <title>Tema 1.348 do STF: concluído julgamento sobre imunidade de ITBI na integralização de imóveis em sociedades imobiliárias</title>
+    <link>https://blog.psalaw.adv.br/stf-itbi-holding-decisao-final.html</link>
+    <guid>https://blog.psalaw.adv.br/stf-itbi-holding-decisao-final.html</guid>
+    <description>Em 19 de outubro de 2026, o STF concluiu, por 9 votos a 2, o julgamento do Tema 1.348 (RE 1.495.108): a imunidade de ITBI também se aplica a sociedades com atividade preponderantemente imobiliária na integralização de capital.</description>
+    <pubDate>Wed, 21 Oct 2026 18:00:00 -0300</pubDate>
+  </item>
   <item>
     <title>Governo estuda PEC para manutenção temporária do IPI sobre produtos sujeitos ao Imposto Seletivo</title>
     <link>https://blog.psalaw.adv.br/pec-ipi-imposto-seletivo-2027.html</link>
