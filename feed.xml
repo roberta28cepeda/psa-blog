@@ -1,11 +1,18 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
   <title>Blog PSA Advocacia Empresarial</title>
   <link>https://blog.psalaw.adv.br/</link>
   <description>Compliance, imobiliário, cartório, empresarial e tributário — sem juridiquês.</description>
   <language>pt-br</language>
-  <lastBuildDate>Wed, 21 Oct 2026 18:00:00 -0300</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 19:00:00 -0300</lastBuildDate>
+  <item>
+    <title>ANEEL abre consultas públicas sobre os efeitos da reforma tributária nos contratos e tarifas de energia elétrica</title>
+    <link>https://blog.psalaw.adv.br/aneel-reforma-tributaria-tarifas-energia.html</link>
+    <guid>https://blog.psalaw.adv.br/aneel-reforma-tributaria-tarifas-energia.html</guid>
+    <description>Em 20 de outubro de 2026, a diretoria da ANEEL aprovou, por unanimidade, a abertura de duas consultas públicas de 10 dias sobre a retirada do PIS/Pasep e da Cofins dos contratos regulados de energia e os créditos remanescentes vinculados à Base de Remuneração Regulatória, com vigência a partir de 1º de janeiro de 2027.</description>
+    <pubDate>Wed, 21 Oct 2026 19:00:00 -0300</pubDate>
+  </item>
   <item>
     <title>Tema 1.348 do STF: concluído julgamento sobre imunidade de ITBI na integralização de imóveis em sociedades imobiliárias</title>
     <link>https://blog.psalaw.adv.br/stf-itbi-holding-decisao-final.html</link>
